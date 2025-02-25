@@ -27,9 +27,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -102,5 +105,14 @@
       }
     }
   },
-  "defaultProject": "ntlink-cfdi-stamp-playground"
+  "defaultProject": "ntlink-cfdi-stamp-playground",
+  "schematics": {
+    "@schematics/angular:component": {
+      "prefix": "nt",
+      "style": "css"
+    },
+    "@schematics/angular:directive": {
+      "prefix": "nt"
+    }
+  }
 }
