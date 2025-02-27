@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "ng serve --proxy-config proxy.conf.json",
+    "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -21,6 +21,7 @@
     "bootstrap": "^5.3.3",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
+    "xml-js": "^1.6.11",
     "xml-viewer-component": "^0.4.2",
     "zone.js": "~0.11.4"
   },

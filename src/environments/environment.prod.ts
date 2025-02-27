@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  ntlinkWs: 'http://dev-cfdi4.ntlink.com.mx:80',
 };

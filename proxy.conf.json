@@ -1,0 +1,10 @@
+{
+  "/cfdi40": {
+    "target": "http://dev-cfdi4.ntlink.com.mx:80",
+    "changeOrigin": true,
+    "secure": false,
+    "pathRewrite": {
+      "^/cfdi40": "/cfdi40"
+    }
+  }
+}
