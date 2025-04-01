@@ -73,6 +73,7 @@ export class AppComponent {
   user=this.customUser;
   }
     if(this.xml){
+    this.loading = true;
       this.stampService.stampInvoice(user!.wsUser, user!.wsPassword, this.xml).pipe(
         tap(response => console.log(response))
       ). subscribe({
