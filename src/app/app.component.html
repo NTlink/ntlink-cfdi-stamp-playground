@@ -45,13 +45,6 @@
     <div class="col-md-6">
       <label for="formFile" class="form-label">Selecciona archivo XML</label>
       <input #fileInput class="form-control" type="file" id="formFile" accept=".xml" (change)="onFileChange($event)" />
-
-      <!--button nbButton status="success" size="medium" (click)="validarInformacion()" class="mx-3"
-              [nbSpinner]="loading" [disabled]="loading" nbSpinnerStatus="success"
-              nbSpinnerSize="small" nbSpinnerMessage="">
-              Validar
-          </!--button-->
-
       <div class="d-grid gap-2 mt-4">
         <button type="button" [disabled]="loading" class="btn btn-light"(click)="stampXML()">
           <span *ngIf="loading" class="spinner-border spinner-border-sm"></span>
