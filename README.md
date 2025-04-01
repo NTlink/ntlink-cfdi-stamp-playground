@@ -1,27 +1,53 @@
-# NtlinkCfdiStampPlayground
+# Nt link Cfdi Stamp Playground
+<div id="top"></div>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://ntlink.com.mx">
+    <img src="logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-## Development server
+<h3 align="center">CAMPO DE PRUEBAS TIMBRADO NT LINK </h3>
+
+  <p align="center">
+    Cliente Angular 13.3 para Pruebas de Timbrado NT link CFDI 4.0
+    <br />
+    <br />
+    <br />
+    <a href="https://ntlink.com.mx">Documentacion</a>
+    ·
+    <a href="https://github.com/NTlink/ntlink-cfdi-stamp-playground/issues">Reportar Bug</a>
+    ·
+    <a href="https://www.ntlink.com.mx/web-service">Cfdi 4.0</a>
+  </p>
+</div>
+
+# Descripción 
+
+Este es un pequeño proyecto destinado a que los desarrolladores puedan hacer pruebas con sus xml y claves ya sea por default o personalizadas  para así hacer diferentes combinaciones y entender profundamente el proceso de timbrado de nt link
+## Framework y librerías
+- angular 13.3
+- bootstrap 5
+- rxjs  7.5 
+- karma 6.3
+
+- node 16
+
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Inicializar el proyecto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+una vez teniendo ya instalado Node y ya teniendo clonado el proyecto, correr
+`npm install`, esperar a que termine la instalación y luego proseguir con el
+de inicialización del proyecto: `npm start`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Contacto
 
-## Running unit tests
+soporte@ntlink.com.mx
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Licencia
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Distribuido bajo la licencia MIT. Consulte LICENSE.txt para obtener más información.

@@ -14,11 +14,11 @@ body {
 .container {
     max-width: 960px;
   }
-  
+
   .pricing-header {
     max-width: 700px;
   }
-  
+
   .card-deck .card {
     min-width: 220px;
   }
@@ -80,7 +80,6 @@ body {
     font-weight: 300
 }
 
-input,
 textarea {
     padding: 10px 12px 10px 12px;
     border: 1px solid lightgrey;
@@ -141,7 +140,7 @@ a {
 
 .nt-green {
     color: #fff;
-    background-color: #1a8d16
+    background-color: #fff;
 }
 
 @media screen and (max-width: 991px) {
@@ -162,4 +161,10 @@ a {
         border-top: 1px solid #EEEEEE !important;
         margin: 0px 15px
     }
+}
+
+p {
+  word-wrap: break-word; /* Rompe palabras largas */
+  overflow-wrap: break-word;
+  white-space: normal; /* Permite saltos de línea */
 }
